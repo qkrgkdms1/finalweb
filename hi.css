@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+.name {
+    color: darkgreen;
+    font-family : 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size : 40px;
+}
+
+input[type=text], select { width: 100%;  padding: 12px 20px; margin: 8px 0; display: inline-block; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }
+
+.plot {
+     width: 100%;  padding: 12px 20px; margin: 8px 0; display: inline-block; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }
+
+     
+input[type=submit]:hover { background-color: yellow; } 
+input[type=submit], select {width :40px;}
+
+input[type=text]:focus { background-color: lightblue; border: 3px solid #555; }
+

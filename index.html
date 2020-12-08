@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset = "utf-8">
+    <link rel ="stylesheet" href ="hi.css">
+    <title> Movigle site </title>
+    
+    
+  </head>
+
+  <body>
+      <header> 
+          <h1 class ="name"> Movigle </h1>
+          
+      </header>
+      
+      <div class="menu">
+          <div id ="navbar">
+              <br>
+              <a href ="#write"> 기록하기 </a>
+              <a href ="#search"> 정보보기 </a>
+              </div>>
+
+      <div class = "container">
+          <div  class ="poster">
+              <a href="#"> <img src = "https://file2.nocutnews.co.kr/newsroom/image/2020/09/11/20200911112424825996_0_710_1018.jpg"></a>
+          </div>
+       </div>
+       
+       <div class= "container">
+       <form method="get" action="form_app.js">
+           <h2> 영화제목 <input type ="text" name ="title"/> <br> </h2>
+           <h2> 장르,연도,국가 <input type ="text" name ="three"/> <br></h2>
+           <h2>별점 <select name ="score" size="1"> <br> </h2>
+               <option> ★ </option> <option> ★★</option> <br>
+               <option>★★★</option> <option>★★★★</option> <option>★★★★★</option>
+            </select> <br>
+           <h2>시청날짜 <input type ="text" name="date"/> <br> </h2>
+           <h2>[plot]<br><textarea name ="plot" cols="40" row="7"></textarea> <br> </h2>
+           <h2>[comments]<br><textarea name ="comments" cols="40" row="7"></textarea> <br></h2>
+           <h2>시청방법<input type ="text" name ="how"/> <br> <h2></h2>
+           <hr>
+           <input type ="submit" value ="저장"/>
+        
+        
+        </form>
+
+        
+            
+
+
+          
+</div>
+
+  </body>
+
+</html>
